@@ -1,0 +1,6 @@
+framework module HSBRep {
+  umbrella header "HSBRep-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - HSBRep (0.1.0)
+
+DEPENDENCIES:
+  - HSBRep (from `../`)
+
+EXTERNAL SOURCES:
+  HSBRep:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HSBRep: 9dcef48b79daef30dab15afaeef9faff2959f5fd
+
+PODFILE CHECKSUM: b15e9faa103c5464cf0e08f2de1eb3d06eb4ce45
+
+COCOAPODS: 1.10.1
