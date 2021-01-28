@@ -8,26 +8,33 @@
 
 /* Begin PBXBuildFile section */
 		0BEEEBED23DC811D2F131AD6C8A9A656 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		0DF8FA37D351BB565F3E14C91CCB1A9F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		15274FAC4803A565DA2D1D3249287E5C /* Pods-HSBRep_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E05BB721636800BB797643F4EE1A7D7 /* Pods-HSBRep_Tests-dummy.m */; };
-		2BBC61B49906CD462EF08581CF622BA8 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = AA6A82B0D95A1BD9E6C4249E5E1FE32B /* ReplaceMe.m */; };
+		1EB9BC05ECD8B1CC91C2D53AC53B6187 /* UITableView+Regist.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF2ADEDFC75F7801B70AB4F74D6D184 /* UITableView+Regist.m */; };
+		28735502E2C443471ECB6D3CC96C1ED8 /* NSTimer+Common.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AA83FAD608B8FC331F8664BD35AAE0C /* NSTimer+Common.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C11668DC7676EC40DA61135578984B7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C374B69C4915B9C8F94B4752958BCE0 /* HSBRep-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A498269F035BEB10212713A2F4B6CE /* HSBRep-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F37807811EEFA2BFBE7C474BC6BB7B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		81CC0F7E87D5E0F0BEB58B62417DF663 /* HSBRep-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 89D7E8DDDF19333D8EE699C714F1742C /* HSBRep-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DE604EA227523A66F824841EBE65D14 /* HSBRep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D04004BF18262BD4291CE10CC2000C /* HSBRep-dummy.m */; };
+		3C8CBEC192366C432DE5928DA5DCA509 /* HSBRep-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 708029A3E91C9EF451F9FD3E46D74662 /* HSBRep-dummy.m */; };
+		6D7353DE676F6CCCEDABCF5DB714A83E /* NSTimer+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7073BEB8DA5789590F29A222BDF492 /* NSTimer+Common.m */; };
+		8CD130C801FF6A2C16C7E43A263ACEBB /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 616BCE23C63717F6A699F9EADCD9A4C8 /* 2.png */; };
+		94EC95053B42FC5BD070AEDFC758AF9D /* GCDTimerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F0E9B7C751CEF0C9363733ABA623DC3 /* GCDTimerManager.m */; };
 		A186965293863B36C5A0571343450B56 /* Pods-HSBRep_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A5A094CBF4EFFBCFF754EFABAE4BECE5 /* Pods-HSBRep_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B12337F2EFDA239BA97C113521FB660D /* Pods-HSBRep_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E49434BE9B511A59894794460ADDCBF7 /* Pods-HSBRep_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D07C86903DE8CA62C098BEB69F325398 /* Pods-HSBRep_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8BBDCCA47F3A8543705FBA364B95798 /* Pods-HSBRep_Example-dummy.m */; };
+		DC4988BE7D6D78BC9E30D121305BC29E /* UITableView+Regist.h in Headers */ = {isa = PBXBuildFile; fileRef = FB9BB9C0E49D5450A1D3F72FFF9CCF7F /* UITableView+Regist.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E9F8E6B0DA505CBCEB89ED7B6B2ADEDD /* GCDTimerManager.h in Headers */ = {isa = PBXBuildFile; fileRef = AD9185CC1F740D6F96EEF1EEE7600321 /* GCDTimerManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F811531764EE283707DF5512F7CAB9F2 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E936FAC65B201579B579C0E61DAC441 /* 1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		10461B27CA52837A58BBA5C1D8C0A1D8 /* PBXContainerItemProxy */ = {
+		00CB271D97469DA4254142D0F2700D5E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 1C47B290111E2801AFC98AA609462363;
 			remoteInfo = "Pods-HSBRep_Example";
 		};
-		B91451380EE66A7DA75AA409F4BCBDA0 /* PBXContainerItemProxy */ = {
+		51BDBD9F9B36A019FB266C0FEBDD488D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -37,66 +44,46 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		54F42858D27CBF2990A4CA40D3165AAF /* HSBRep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSBRep.release.xcconfig; sourceTree = "<group>"; };
-		5674B62B14400522EAD27013E139E48F /* HSBRep-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBRep-prefix.pch"; sourceTree = "<group>"; };
+		0CC55A45CEC2E493198656304E9FB7AB /* HSBRep.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HSBRep.modulemap; sourceTree = "<group>"; };
+		134EE6E8727600D1091439A0746BCD2A /* HSBRep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSBRep.debug.xcconfig; sourceTree = "<group>"; };
+		14A498269F035BEB10212713A2F4B6CE /* HSBRep-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBRep-umbrella.h"; sourceTree = "<group>"; };
+		236D7B0D8FCD746AEECA58B372470078 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3AA83FAD608B8FC331F8664BD35AAE0C /* NSTimer+Common.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Common.h"; path = "HSBRep/Classes/TimerHelper/NSTimer/NSTimer+Common.h"; sourceTree = "<group>"; };
+		4ACE9D68B6C29D4593EE4AFAAA7C6BCB /* HSBRep-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HSBRep-Info.plist"; sourceTree = "<group>"; };
+		5F0E9B7C751CEF0C9363733ABA623DC3 /* GCDTimerManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GCDTimerManager.m; path = HSBRep/Classes/TimerHelper/GCD/GCDTimerManager.m; sourceTree = "<group>"; };
+		616BCE23C63717F6A699F9EADCD9A4C8 /* 2.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 2.png; path = HSBRep/Resource/2.png; sourceTree = "<group>"; };
 		61C97475C0A309CBC3495C64F0BCBB69 /* Pods-HSBRep_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBRep_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		63D5903E60476D9CA657ED15DF3A3201 /* HSBRep-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBRep-prefix.pch"; sourceTree = "<group>"; };
 		6507B6E329ED27D9E7D5578BCDA8D300 /* Pods-HSBRep_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HSBRep_Example-frameworks.sh"; sourceTree = "<group>"; };
-		69BBCFE2DB61A56280B55CC236C7E6E3 /* Pods_HSBRep_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSBRep_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		69BBCFE2DB61A56280B55CC236C7E6E3 /* Pods_HSBRep_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HSBRep_Tests.framework; path = "Pods-HSBRep_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF2ADEDFC75F7801B70AB4F74D6D184 /* UITableView+Regist.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+Regist.m"; path = "HSBRep/Classes/UITableVIewHelper/UITableView+Regist.m"; sourceTree = "<group>"; };
 		6E05BB721636800BB797643F4EE1A7D7 /* Pods-HSBRep_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSBRep_Tests-dummy.m"; sourceTree = "<group>"; };
+		6F7073BEB8DA5789590F29A222BDF492 /* NSTimer+Common.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Common.m"; path = "HSBRep/Classes/TimerHelper/NSTimer/NSTimer+Common.m"; sourceTree = "<group>"; };
+		708029A3E91C9EF451F9FD3E46D74662 /* HSBRep-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSBRep-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7605DF7B0994A7FE0568ACA973F52CE6 /* Pods-HSBRep_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBRep_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		84D04004BF18262BD4291CE10CC2000C /* HSBRep-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HSBRep-dummy.m"; sourceTree = "<group>"; };
-		89D7E8DDDF19333D8EE699C714F1742C /* HSBRep-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HSBRep-umbrella.h"; sourceTree = "<group>"; };
 		91CB72DEFF6E8A2E8ED74DB1766641B1 /* Pods-HSBRep_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSBRep_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		93C367E6247EC7E833E9B7617FE23DD9 /* HSBRep.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = HSBRep.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9436A3553B8E4B4E963B0B731B4A06FC /* Pods-HSBRep_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBRep_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		9CC40D175CCFE63B124186F33DFDA907 /* Pods-HSBRep_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSBRep_Tests.modulemap"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E936FAC65B201579B579C0E61DAC441 /* 1.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = 1.png; path = HSBRep/Resource/1.png; sourceTree = "<group>"; };
 		A5A094CBF4EFFBCFF754EFABAE4BECE5 /* Pods-HSBRep_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSBRep_Tests-umbrella.h"; sourceTree = "<group>"; };
-		AA4FB60BF6B0AE2AEB66145950DB9F3B /* HSBRep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSBRep.debug.xcconfig; sourceTree = "<group>"; };
-		AA6A82B0D95A1BD9E6C4249E5E1FE32B /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = HSBRep/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		ACE8AA0D33B440F46F1D19B718C45358 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AD9185CC1F740D6F96EEF1EEE7600321 /* GCDTimerManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GCDTimerManager.h; path = HSBRep/Classes/TimerHelper/GCD/GCDTimerManager.h; sourceTree = "<group>"; };
 		B8BBDCCA47F3A8543705FBA364B95798 /* Pods-HSBRep_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HSBRep_Example-dummy.m"; sourceTree = "<group>"; };
 		BB10EC43A607A97BCE33AA309C9F51E4 /* Pods-HSBRep_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBRep_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BC04BA90C0A0B8149EE6E025F9AF1498 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BC5B4829A23775A09CF523B20B4BD5A7 /* Pods-HSBRep_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HSBRep_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C5C34E40127FCAC479586E1BF723E9FA /* HSBRep.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HSBRep.modulemap; sourceTree = "<group>"; };
 		CF363929A18FE79D76658C65A60C0C4A /* Pods-HSBRep_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBRep_Example-Info.plist"; sourceTree = "<group>"; };
-		CF56F0DE25C2906800B47821 /* GCDTimerManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimerManager.m; sourceTree = "<group>"; };
-		CF56F0DF25C2906800B47821 /* GCDTimerManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTimerManager.h; sourceTree = "<group>"; };
-		CF56F0E125C2906800B47821 /* NSTimer+Common.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+Common.m"; sourceTree = "<group>"; };
-		CF56F0E225C2906800B47821 /* NSTimer+Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSTimer+Common.h"; sourceTree = "<group>"; };
-		CF56F0E425C2906800B47821 /* UITableView+Regist.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UITableView+Regist.h"; sourceTree = "<group>"; };
-		CF56F0E525C2906800B47821 /* UITableView+Regist.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UITableView+Regist.m"; sourceTree = "<group>"; };
-		CF56F0E725C2906800B47821 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
-		CF56F0E825C2906800B47821 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
-		CF56F0E925C2906800B47821 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
-		CF56F0EA25C2906800B47821 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
-		CF56F0EB25C2906800B47821 /* AFURLSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
-		CF56F0EC25C2906800B47821 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
-		CF56F0ED25C2906800B47821 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
-		CF56F0EE25C2906800B47821 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		CF56F0EF25C2906800B47821 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
-		CF56F0F025C2906800B47821 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
-		CF56F0F125C2906800B47821 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
-		CF56F0F225C2906800B47821 /* AFURLSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
-		CF56F0F325C2906800B47821 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
-		CF56F0F425C2906800B47821 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
-		CF56F0F525C2906800B47821 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
-		CF56F0F625C2906800B47821 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
-		CF56F0F725C2906800B47821 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
-		CF56F0F825C2906800B47821 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
-		CF56F0F925C2906800B47821 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
-		CF56F0FB25C2906E00B47821 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
-		CF56F0FC25C2906E00B47821 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
-		DAA79A8F9F8C5708A3FE0A086A26373E /* HSBRep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HSBRep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DB995B82C325DA235A4D56363405ADD9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		E2187B1192550DE5C5647A5D7304E08D /* HSBRep-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HSBRep-Info.plist"; sourceTree = "<group>"; };
+		DAA79A8F9F8C5708A3FE0A086A26373E /* HSBRep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HSBRep.framework; path = HSBRep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC5DF74DC24CA6CDFBAACD14C828EF6C /* HSBRep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HSBRep.release.xcconfig; sourceTree = "<group>"; };
 		E364BC754032DB8E588FC3BBE278E5CE /* Pods-HSBRep_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HSBRep_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E49434BE9B511A59894794460ADDCBF7 /* Pods-HSBRep_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HSBRep_Example-umbrella.h"; sourceTree = "<group>"; };
 		E641B4CD02D3B1C8D57BEBC7BE6D4AA2 /* Pods-HSBRep_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBRep_Tests-Info.plist"; sourceTree = "<group>"; };
 		ECE3208CD571318FC76984AC5E9D8A00 /* Pods-HSBRep_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HSBRep_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED29091967E5AFD90E7A0F467443D273 /* Pods-HSBRep_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HSBRep_Example.modulemap"; sourceTree = "<group>"; };
-		F2B9A843CB29F946832261612B5F3E30 /* Pods_HSBRep_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HSBRep_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDB369ED5A0CD0F69BEB05E2658B7CDC /* HSBRep.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = HSBRep.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F2B9A843CB29F946832261612B5F3E30 /* Pods_HSBRep_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HSBRep_Example.framework; path = "Pods-HSBRep_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FB9BB9C0E49D5450A1D3F72FFF9CCF7F /* UITableView+Regist.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+Regist.h"; path = "HSBRep/Classes/UITableVIewHelper/UITableView+Regist.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +95,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5C7DAADAA14B493622DE7E514E2B8DBF /* Frameworks */ = {
+		33AF397F6498CE541A83EE84DD0B1F63 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0DF8FA37D351BB565F3E14C91CCB1A9F /* Foundation.framework in Frameworks */,
+				2C11668DC7676EC40DA61135578984B7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +114,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		081C29B392D134BF40071EB6AF9D79CF /* GCD */ = {
+			isa = PBXGroup;
+			children = (
+				AD9185CC1F740D6F96EEF1EEE7600321 /* GCDTimerManager.h */,
+				5F0E9B7C751CEF0C9363733ABA623DC3 /* GCDTimerManager.m */,
+			);
+			name = GCD;
+			sourceTree = "<group>";
+		};
 		088996C623BCFCCE07A93BADBED4F052 /* Pods-HSBRep_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,12 +139,37 @@
 			path = "Target Support Files/Pods-HSBRep_Tests";
 			sourceTree = "<group>";
 		};
-		4845B26FF9D4C5BA20F8D4CDA736CE56 /* Development Pods */ = {
+		0940FF15586F568C3A89136016C37FF8 /* NSTimer */ = {
 			isa = PBXGroup;
 			children = (
-				D1878E2F1E4F1FC3F055B010A21692C6 /* HSBRep */,
+				3AA83FAD608B8FC331F8664BD35AAE0C /* NSTimer+Common.h */,
+				6F7073BEB8DA5789590F29A222BDF492 /* NSTimer+Common.m */,
 			);
-			name = "Development Pods";
+			name = NSTimer;
+			sourceTree = "<group>";
+		};
+		0A938E78FC95212266A5AAD7509EAB44 /* HSBRep */ = {
+			isa = PBXGroup;
+			children = (
+				9E936FAC65B201579B579C0E61DAC441 /* 1.png */,
+				616BCE23C63717F6A699F9EADCD9A4C8 /* 2.png */,
+				0F372D3DBF7CE8C641D47F86A5ABE98E /* Pod */,
+				CA5EBEB0F89DC0A3F6CA37BFEE021C37 /* Support Files */,
+				D91E58D12DF44488965412484EA8AF32 /* TimerHelper */,
+				DFBF1A9CF8BDDA34F404AFCF887C5A79 /* UITableVIewHelper */,
+			);
+			name = HSBRep;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		0F372D3DBF7CE8C641D47F86A5ABE98E /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				EDB369ED5A0CD0F69BEB05E2658B7CDC /* HSBRep.podspec */,
+				ACE8AA0D33B440F46F1D19B718C45358 /* LICENSE */,
+				236D7B0D8FCD746AEECA58B372470078 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		4AFB0CFDA6526C9C77B2E97FC5AE6140 /* Targets Support Files */ = {
@@ -178,6 +199,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		7B2816AB70FA4E3D14FF9BDBF61FB646 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0A938E78FC95212266A5AAD7509EAB44 /* HSBRep */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		7E5963D7DECD2D860829F767D29E47E5 /* Pods-HSBRep_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -195,26 +224,16 @@
 			path = "Target Support Files/Pods-HSBRep_Example";
 			sourceTree = "<group>";
 		};
-		884ECF38A5714303770EC2F34F73B6AC /* Pod */ = {
+		CA5EBEB0F89DC0A3F6CA37BFEE021C37 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				93C367E6247EC7E833E9B7617FE23DD9 /* HSBRep.podspec */,
-				DB995B82C325DA235A4D56363405ADD9 /* LICENSE */,
-				BC04BA90C0A0B8149EE6E025F9AF1498 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		BE51E59E090DC8B76C9A2A18092BD265 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C5C34E40127FCAC479586E1BF723E9FA /* HSBRep.modulemap */,
-				84D04004BF18262BD4291CE10CC2000C /* HSBRep-dummy.m */,
-				E2187B1192550DE5C5647A5D7304E08D /* HSBRep-Info.plist */,
-				5674B62B14400522EAD27013E139E48F /* HSBRep-prefix.pch */,
-				89D7E8DDDF19333D8EE699C714F1742C /* HSBRep-umbrella.h */,
-				AA4FB60BF6B0AE2AEB66145950DB9F3B /* HSBRep.debug.xcconfig */,
-				54F42858D27CBF2990A4CA40D3165AAF /* HSBRep.release.xcconfig */,
+				0CC55A45CEC2E493198656304E9FB7AB /* HSBRep.modulemap */,
+				708029A3E91C9EF451F9FD3E46D74662 /* HSBRep-dummy.m */,
+				4ACE9D68B6C29D4593EE4AFAAA7C6BCB /* HSBRep-Info.plist */,
+				63D5903E60476D9CA657ED15DF3A3201 /* HSBRep-prefix.pch */,
+				14A498269F035BEB10212713A2F4B6CE /* HSBRep-umbrella.h */,
+				134EE6E8727600D1091439A0746BCD2A /* HSBRep.debug.xcconfig */,
+				DC5DF74DC24CA6CDFBAACD14C828EF6C /* HSBRep.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HSBRep";
@@ -224,101 +243,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				4845B26FF9D4C5BA20F8D4CDA736CE56 /* Development Pods */,
+				7B2816AB70FA4E3D14FF9BDBF61FB646 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				7740D44B5925003EF60B1255C5A4D32F /* Products */,
 				4AFB0CFDA6526C9C77B2E97FC5AE6140 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		CF56F0DC25C2906800B47821 /* TimerHelper */ = {
-			isa = PBXGroup;
-			children = (
-				CF56F0DD25C2906800B47821 /* GCD */,
-				CF56F0E025C2906800B47821 /* NSTimer */,
-			);
-			name = TimerHelper;
-			path = HSBRep/Classes/TimerHelper;
-			sourceTree = "<group>";
-		};
-		CF56F0DD25C2906800B47821 /* GCD */ = {
-			isa = PBXGroup;
-			children = (
-				CF56F0DE25C2906800B47821 /* GCDTimerManager.m */,
-				CF56F0DF25C2906800B47821 /* GCDTimerManager.h */,
-			);
-			path = GCD;
-			sourceTree = "<group>";
-		};
-		CF56F0E025C2906800B47821 /* NSTimer */ = {
-			isa = PBXGroup;
-			children = (
-				CF56F0E125C2906800B47821 /* NSTimer+Common.m */,
-				CF56F0E225C2906800B47821 /* NSTimer+Common.h */,
-			);
-			path = NSTimer;
-			sourceTree = "<group>";
-		};
-		CF56F0E325C2906800B47821 /* UITableVIewHelper */ = {
-			isa = PBXGroup;
-			children = (
-				CF56F0E425C2906800B47821 /* UITableView+Regist.h */,
-				CF56F0E525C2906800B47821 /* UITableView+Regist.m */,
-			);
-			name = UITableVIewHelper;
-			path = HSBRep/Classes/UITableVIewHelper;
-			sourceTree = "<group>";
-		};
-		CF56F0E625C2906800B47821 /* AFNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				CF56F0E725C2906800B47821 /* AFSecurityPolicy.h */,
-				CF56F0E825C2906800B47821 /* AFNetworkReachabilityManager.h */,
-				CF56F0E925C2906800B47821 /* AFHTTPRequestOperation.h */,
-				CF56F0EA25C2906800B47821 /* AFHTTPRequestOperationManager.h */,
-				CF56F0EB25C2906800B47821 /* AFURLSessionManager.h */,
-				CF56F0EC25C2906800B47821 /* AFURLRequestSerialization.h */,
-				CF56F0ED25C2906800B47821 /* AFURLConnectionOperation.h */,
-				CF56F0EE25C2906800B47821 /* AFURLResponseSerialization.m */,
-				CF56F0EF25C2906800B47821 /* AFHTTPSessionManager.m */,
-				CF56F0F025C2906800B47821 /* AFURLConnectionOperation.m */,
-				CF56F0F125C2906800B47821 /* AFURLResponseSerialization.h */,
-				CF56F0F225C2906800B47821 /* AFURLSessionManager.m */,
-				CF56F0F325C2906800B47821 /* AFHTTPRequestOperationManager.m */,
-				CF56F0F425C2906800B47821 /* AFURLRequestSerialization.m */,
-				CF56F0F525C2906800B47821 /* AFHTTPRequestOperation.m */,
-				CF56F0F625C2906800B47821 /* AFNetworking.h */,
-				CF56F0F725C2906800B47821 /* AFNetworkReachabilityManager.m */,
-				CF56F0F825C2906800B47821 /* AFSecurityPolicy.m */,
-				CF56F0F925C2906800B47821 /* AFHTTPSessionManager.h */,
-			);
-			name = AFNetworking;
-			path = HSBRep/Classes/AFNetworking;
-			sourceTree = "<group>";
-		};
-		CF56F0FA25C2906E00B47821 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				CF56F0FB25C2906E00B47821 /* 2.png */,
-				CF56F0FC25C2906E00B47821 /* 1.png */,
-			);
-			name = Resource;
-			path = HSBRep/Resource;
-			sourceTree = "<group>";
-		};
-		D1878E2F1E4F1FC3F055B010A21692C6 /* HSBRep */ = {
-			isa = PBXGroup;
-			children = (
-				CF56F0FA25C2906E00B47821 /* Resource */,
-				CF56F0E625C2906800B47821 /* AFNetworking */,
-				CF56F0DC25C2906800B47821 /* TimerHelper */,
-				CF56F0E325C2906800B47821 /* UITableVIewHelper */,
-				AA6A82B0D95A1BD9E6C4249E5E1FE32B /* ReplaceMe.m */,
-				884ECF38A5714303770EC2F34F73B6AC /* Pod */,
-				BE51E59E090DC8B76C9A2A18092BD265 /* Support Files */,
-			);
-			name = HSBRep;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -327,6 +256,24 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D91E58D12DF44488965412484EA8AF32 /* TimerHelper */ = {
+			isa = PBXGroup;
+			children = (
+				081C29B392D134BF40071EB6AF9D79CF /* GCD */,
+				0940FF15586F568C3A89136016C37FF8 /* NSTimer */,
+			);
+			name = TimerHelper;
+			sourceTree = "<group>";
+		};
+		DFBF1A9CF8BDDA34F404AFCF887C5A79 /* UITableVIewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				FB9BB9C0E49D5450A1D3F72FFF9CCF7F /* UITableView+Regist.h */,
+				6BF2ADEDFC75F7801B70AB4F74D6D184 /* UITableView+Regist.m */,
+			);
+			name = UITableVIewHelper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -348,11 +295,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE4F11026FE80D0BCDBFD6987321AC17 /* Headers */ = {
+		D017078C9EA491753AA6A8516328B414 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81CC0F7E87D5E0F0BEB58B62417DF663 /* HSBRep-umbrella.h in Headers */,
+				E9F8E6B0DA505CBCEB89ED7B6B2ADEDD /* GCDTimerManager.h in Headers */,
+				2C374B69C4915B9C8F94B4752958BCE0 /* HSBRep-umbrella.h in Headers */,
+				28735502E2C443471ECB6D3CC96C1ED8 /* NSTimer+Common.h in Headers */,
+				DC4988BE7D6D78BC9E30D121305BC29E /* UITableView+Regist.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -371,7 +321,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4BA3C63BBC6CDE95106D54858EDCE129 /* PBXTargetDependency */,
+				4B593FE8E9DBBAEA3435C53FF090B505 /* PBXTargetDependency */,
 			);
 			name = "Pods-HSBRep_Tests";
 			productName = "Pods-HSBRep_Tests";
@@ -390,7 +340,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				185567028BE97AA9A4E99BFE9D666F1A /* PBXTargetDependency */,
+				C9E4194CD6699DB298DD36252DFE64B3 /* PBXTargetDependency */,
 			);
 			name = "Pods-HSBRep_Example";
 			productName = "Pods-HSBRep_Example";
@@ -399,12 +349,12 @@
 		};
 		82F8338AC9912A345F72FE2AF4F91699 /* HSBRep */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 65EB0D67B5EB8FF62B2B7AC870ABCEB4 /* Build configuration list for PBXNativeTarget "HSBRep" */;
+			buildConfigurationList = 1EBF29517A9AB2571F938323B004ED5F /* Build configuration list for PBXNativeTarget "HSBRep" */;
 			buildPhases = (
-				CE4F11026FE80D0BCDBFD6987321AC17 /* Headers */,
-				97CE4FA3E269CD57CE08710B25952C5F /* Sources */,
-				5C7DAADAA14B493622DE7E514E2B8DBF /* Frameworks */,
-				01B1276455495282B7A9663384E30FBF /* Resources */,
+				D017078C9EA491753AA6A8516328B414 /* Headers */,
+				D1F2CC2F8D3FFE0953AC39C0B3CF4774 /* Sources */,
+				33AF397F6498CE541A83EE84DD0B1F63 /* Frameworks */,
+				01B064199AEC41394C92072E8E2568F4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -445,10 +395,12 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		01B1276455495282B7A9663384E30FBF /* Resources */ = {
+		01B064199AEC41394C92072E8E2568F4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F811531764EE283707DF5512F7CAB9F2 /* 1.png in Resources */,
+				8CD130C801FF6A2C16C7E43A263ACEBB /* 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -477,15 +429,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		97CE4FA3E269CD57CE08710B25952C5F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9DE604EA227523A66F824841EBE65D14 /* HSBRep-dummy.m in Sources */,
-				2BBC61B49906CD462EF08581CF622BA8 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B825AC5ADB6AB0233E2DC229F679AF66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,20 +437,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D1F2CC2F8D3FFE0953AC39C0B3CF4774 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94EC95053B42FC5BD070AEDFC758AF9D /* GCDTimerManager.m in Sources */,
+				3C8CBEC192366C432DE5928DA5DCA509 /* HSBRep-dummy.m in Sources */,
+				6D7353DE676F6CCCEDABCF5DB714A83E /* NSTimer+Common.m in Sources */,
+				1EB9BC05ECD8B1CC91C2D53AC53B6187 /* UITableView+Regist.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		185567028BE97AA9A4E99BFE9D666F1A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = HSBRep;
-			target = 82F8338AC9912A345F72FE2AF4F91699 /* HSBRep */;
-			targetProxy = B91451380EE66A7DA75AA409F4BCBDA0 /* PBXContainerItemProxy */;
-		};
-		4BA3C63BBC6CDE95106D54858EDCE129 /* PBXTargetDependency */ = {
+		4B593FE8E9DBBAEA3435C53FF090B505 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-HSBRep_Example";
 			target = 1C47B290111E2801AFC98AA609462363 /* Pods-HSBRep_Example */;
-			targetProxy = 10461B27CA52837A58BBA5C1D8C0A1D8 /* PBXContainerItemProxy */;
+			targetProxy = 00CB271D97469DA4254142D0F2700D5E /* PBXContainerItemProxy */;
+		};
+		C9E4194CD6699DB298DD36252DFE64B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HSBRep;
+			target = 82F8338AC9912A345F72FE2AF4F91699 /* HSBRep */;
+			targetProxy = 51BDBD9F9B36A019FB266C0FEBDD488D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -611,9 +565,9 @@
 			};
 			name = Release;
 		};
-		959FDE22941BACDCF0439CB02435A4DD /* Debug */ = {
+		815DF2F82757D0660FF0C17169B0A0AF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AA4FB60BF6B0AE2AEB66145950DB9F3B /* HSBRep.debug.xcconfig */;
+			baseConfigurationReference = 134EE6E8727600D1091439A0746BCD2A /* HSBRep.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -673,9 +627,9 @@
 			};
 			name = Debug;
 		};
-		A06F4BFB3A8FD970A77937A27690571F /* Release */ = {
+		9D785A895E046D2339424F59664CE6B9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54F42858D27CBF2990A4CA40D3165AAF /* HSBRep.release.xcconfig */;
+			baseConfigurationReference = DC5DF74DC24CA6CDFBAACD14C828EF6C /* HSBRep.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -792,7 +746,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -833,20 +788,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1EBF29517A9AB2571F938323B004ED5F /* Build configuration list for PBXNativeTarget "HSBRep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815DF2F82757D0660FF0C17169B0A0AF /* Debug */,
+				9D785A895E046D2339424F59664CE6B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
 				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		65EB0D67B5EB8FF62B2B7AC870ABCEB4 /* Build configuration list for PBXNativeTarget "HSBRep" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				959FDE22941BACDCF0439CB02435A4DD /* Debug */,
-				A06F4BFB3A8FD970A77937A27690571F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,8 +1,8 @@
 {
   "name": "HSBRep",
-  "version": "0.1.0",
+  "version": "0.0.2",
   "summary": "A short description of HSBRep.",
-  "description": "TODO: Add long description of the pod here.",
+  "description": "HSBRep远程仓库",
   "homepage": "https://github.com/MiaoMiaoai/HSBRep",
   "license": {
     "type": "MIT",
@@ -13,10 +13,30 @@
   },
   "source": {
     "git": "https://github.com/MiaoMiaoai/HSBRep.git",
-    "tag": "0.1.0"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "HSBRep/Classes/**/*"
+  "resources": "HSBRep/Resource/*.png",
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "TimerHelper",
+      "subspecs": [
+        {
+          "name": "GCD",
+          "source_files": "HSBRep/Classes/TimerHelper/GCD/**/*.{h,m}"
+        },
+        {
+          "name": "NSTimer",
+          "source_files": "HSBRep/Classes/TimerHelper/NSTimer/**/*.{h,m}"
+        }
+      ]
+    },
+    {
+      "name": "UITableVIewHelper",
+      "source_files": "HSBRep/Classes/UITableVIewHelper/**/*.{h,m}"
+    }
+  ]
 }

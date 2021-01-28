@@ -1,5 +1,13 @@
 PODS:
-  - HSBRep (0.1.0)
+  - HSBRep (0.0.2):
+    - HSBRep/TimerHelper (= 0.0.2)
+    - HSBRep/UITableVIewHelper (= 0.0.2)
+  - HSBRep/TimerHelper (0.0.2):
+    - HSBRep/TimerHelper/GCD (= 0.0.2)
+    - HSBRep/TimerHelper/NSTimer (= 0.0.2)
+  - HSBRep/TimerHelper/GCD (0.0.2)
+  - HSBRep/TimerHelper/NSTimer (0.0.2)
+  - HSBRep/UITableVIewHelper (0.0.2)
 
 DEPENDENCIES:
   - HSBRep (from `../`)
@@ -9,7 +17,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HSBRep: 9dcef48b79daef30dab15afaeef9faff2959f5fd
+  HSBRep: 44ee1e4018845f2b59f78af78569761dc7a88e46
 
 PODFILE CHECKSUM: b15e9faa103c5464cf0e08f2de1eb3d06eb4ce45
 

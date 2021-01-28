@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "GCDTimerManager.h"
+#import "NSTimer+Common.h"
+#import "UITableView+Regist.h"
 
 FOUNDATION_EXPORT double HSBRepVersionNumber;
 FOUNDATION_EXPORT const unsigned char HSBRepVersionString[];
