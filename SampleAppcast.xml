@@ -3,7 +3,7 @@
     <channel>
         <title>SDPClient</title>
         <description>Most recent changes with links to updates.</description>
-        <language>en</language>
+        <language>cn</language>
         <item>
             <title>Version 2.0</title>
             <sparkle:releaseNotesLink>
