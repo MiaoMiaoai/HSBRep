@@ -14,9 +14,9 @@
                 url="https://raw.githubusercontent.com/MiaoMiaoai/HSBRep/main/SDPClient.zip"
                 sparkle:shortVersionString="2.0"
                 sparkle:version="2022.11.15"
-                length="1514439"
+                length="1514513"
                 type="application/octet-stream"
-                sparkle:edSignature="CZ2D0hxm/HClzwCL1glqJZo8HgsJfPwN+fGk7HhRvS9usAvlClc1krzcPuSwzzVDsSoYBnjnLgPrg4c9hjnbCw=="
+                sparkle:edSignature="2rRdGNk9/uxUJDlRSmTymoVMK9xMqnMgG5yqDvugVs4qCu0uZqsMcN5/YqXnN1ZIgVboT5BW+xupKDBdA9IQCA=="
             />
             <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
         </item>
