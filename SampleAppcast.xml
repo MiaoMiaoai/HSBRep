@@ -2,13 +2,19 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
     <channel>
         <title>SDPClient</title>
-        <description>优化了部分已知问题.</description>
-        <language>CN</language>
+        <link>http://sparkle-project.org/files/sparkletestcast.xml</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
         <item>
             <title>Version 2.0</title>
+            <link>https://sparkle-project.org</link>
+            <sparkle:version>2.0</sparkle:version>
             <sparkle:releaseNotesLink>
                 https://raw.githubusercontent.com/MiaoMiaoai/HSBRep/main/SampleAppcast.xml
             </sparkle:releaseNotesLink>
+            <description>
+            <![CDATA[ <ul> <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li> <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li> <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li> </ul> ]]>
+            </description>
             <pubDate>Wed, 15 November 2022 15:11:11 +0000</pubDate>
             <enclosure
                 url="https://raw.githubusercontent.com/MiaoMiaoai/HSBRep/main/SDPClient.zip"
