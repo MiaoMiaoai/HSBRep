@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>SDPClient</title>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 2.0</title>
+            <sparkle:releaseNotesLink>
+                https://raw.githubusercontent.com/MiaoMiaoai/HSBRep/main/SampleAppcast.xml
+            </sparkle:releaseNotesLink>
+            <pubDate>Wed, 15 November 2022 15:11:11 +0000</pubDate>
+            <enclosure
+                url="https://raw.githubusercontent.com/MiaoMiaoai/HSBRep/main/SDPClient.zip"
+                sparkle:shortVersionString="2.0"
+                sparkle:version="2022.11.15"
+                length="1514439"
+                type="application/octet-stream"
+                sparkle:edSignature="CZ2D0hxm/HClzwCL1glqJZo8HgsJfPwN+fGk7HhRvS9usAvlClc1krzcPuSwzzVDsSoYBnjnLgPrg4c9hjnbCw=="
+            />
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+        </item>
+    </channel>
+</rss>
