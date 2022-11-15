@@ -3,8 +3,8 @@
     <channel>
         <title>SDPClient</title>
         <link>http://sparkle-project.org/files/sparkletestcast.xml</link>
-        <description>Most recent changes with links to updates.</description>
-        <language>en</language>
+        <description>新版本更新</description>
+        <language>zh-CN</language>
         <item>
             <title>Version 2.0</title>
             <link>https://sparkle-project.org</link>
