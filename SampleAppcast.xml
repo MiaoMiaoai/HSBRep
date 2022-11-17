@@ -4,13 +4,12 @@
         <title>SDPClient</title>
         <link>http://sparkle-project.org/files/sparkletestcast.xml</link>
         <description>新版本更新</description>
-        <language>CN</language>
+        <language>zh-Hans</language>
         <item>
             <title>Version 2.0</title>
             <link>https://sparkle-project.org</link>
             <sparkle:version>2.0</sparkle:version>
-            <sparkle:releaseNotesLink>
-            </sparkle:releaseNotesLink>
+
             <description>
             <![CDATA[ <ul> <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li> <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li> <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li> </ul> ]]>
             </description>
