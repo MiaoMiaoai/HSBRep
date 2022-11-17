@@ -3,15 +3,24 @@
     <channel>
         <title>SDPClient</title>
         <link>http://sparkle-project.org/files/sparkletestcast.xml</link>
-        <description>新版本更新</description>
-        <language>zh-Hans</language>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
         <item>
             <title>Version 2.0</title>
-            <link>https://sparkle-project.org</link>
             <sparkle:version>2.0</sparkle:version>
-
+            <link>https://sparkle-project.org</link>
+            <sparkle:fullReleaseNotesLink>
+                https://support.enlink.top/help/privacy.html
+            </sparkle:fullReleaseNotesLink>
             <description>
-            <![CDATA[ <ul> <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li> <li>Suspendisse sed felis ac ante ultrices rhoncus. Etiam quis elit vel nibh placerat facilisis in id leo.</li> <li>Vestibulum nec tortor odio, nec malesuada libero. Cras vel convallis nunc.</li> <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit pretium.</li> </ul> ]]>
+                <![CDATA[
+                  <ul>
+                    <li>可以给群聊设置备注.</li>
+                    <li>可以在聊天列表中不显示某个聊天.</li>
+                    <li>修复了一些已知问题.</li>
+                    <li>Suspendisse tristique massa eget velit consequat tincidunt. Praesent sodales hendrerit <a href="#">pretium</a>.</li>
+                  </ul>
+                ]]>
             </description>
             <pubDate>Wed, 15 November 2022 15:11:11 +0000</pubDate>
             <enclosure
